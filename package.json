@@ -1,14 +1,15 @@
 {
   "homepage": "https://memo.romain-ollier.com",
   "name": "memory",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
   "dependencies": {
     "lodash.shuffle": "4.2.0",
     "prop-types": "15.7.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +27,11 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

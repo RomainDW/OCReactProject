@@ -32,7 +32,11 @@ class App extends Component {
 
   // Arrow fx for binding
   handleCardClick = index => {
-    const { currentPair } = this.state;
+    const { currentPair, matchedCardIndices } = this.state;
+
+    if(matchedCardIndices.includes(index)) {
+      return;
+    }
 
     if (currentPair.length === 2) {
       return;

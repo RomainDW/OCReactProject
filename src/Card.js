@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./Card.css";
 
-const HIDDEN_SYMBOL = "❓";
+const HIDDEN_SYMBOL = "❓";
 
 const Card = ({ card, feedback, index, onClick }) => (
   <div className={`card ${feedback}`} onClick={() => onClick(index)}>
